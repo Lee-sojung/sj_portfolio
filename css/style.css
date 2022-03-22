@@ -179,6 +179,10 @@ section {
             margin-bottom: 10px; }
             section .inner .sec2 .portfolio .link a:last-child {
               margin-bottom: 0px; }
+            section .inner .sec2 .portfolio .link a:hover {
+              color: #f6e58d; }
+              section .inner .sec2 .portfolio .link a:hover i {
+                color: #f6e58d; }
       section .inner .sec2 .contact {
         width: 50%;
         display: flex;
@@ -380,7 +384,7 @@ aside {
         width: 90%;
         height: 90%;
         object-fit: cover; }
-      aside .inner .content p {
+      aside .inner .content > p {
         font: 15px/1.5 '맑은 고딕';
         color: #bbb; }
     aside .inner .btnClose {

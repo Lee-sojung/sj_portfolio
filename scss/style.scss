@@ -219,6 +219,11 @@ section{
                         margin-bottom: 10px;
 
                         &:last-child{ margin-bottom: 0px;}
+
+                        &:hover{
+                            color:#f6e58d ;
+                            i{color:#f6e58d ;}
+                        }
                     }
                 }
 
@@ -460,7 +465,7 @@ aside{
                 width: 90%; height: 90%;
                 object-fit: cover;
             }
-            p{
+            >p{
                 font: 15px/1.5 '맑은 고딕';
                 color: #bbb;
             }
