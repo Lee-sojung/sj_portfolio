@@ -65,23 +65,114 @@ section{
                         word-break: keep-all;
                     }
                     .btnOpen{
-                    display: block;
-                    width: 140px;
-                    height: 40px;
-                    font: normal 18px/40px 'Roboto Mono';
-                    color: #333;
-                    border: 1px solid #333;
-                    text-align: center;
-                    margin-left: 50px;
-                    transition: 0.5s;
-                    
-                    
-                    &:hover{
-                        color: #fff;
-                        background: #333;
-                    }
-                    
-                    }
+                        display: block;
+                        width: 140px; outline: none;
+                        height: 40px;
+                        font: normal 18px/40px 'Roboto Mono';
+                        color: #333;
+                        background: rgba(255, 255, 255, 0.589);
+                        text-align: center;
+                        margin-left: 50px;
+                        transition: all .5s;
+                        box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+                        overflow: hidden;
+                        position: relative;
+    
+                        span{
+                            position: absolute;
+                            display: block;
+    
+                            &:nth-of-type(1){
+                                height: 3px;
+                                width:140px;
+                                top:0px;
+                                left:-140px;
+                                background: linear-gradient(to right, rgba(0,0,0,0), #202020);
+                                border-top-right-radius: 1px;
+                                border-bottom-right-radius: 1px;
+                                animation: span1 2s linear infinite;
+                                animation-delay: 1s;
+                            }
+                            &:nth-of-type(2){
+                                height: 40px;
+                                width: 3px;
+                                top:-40px;
+                                right:0px;
+                                background: linear-gradient(to bottom, rgba(0,0,0,0), #202020);
+                                border-bottom-left-radius: 1px;
+                                border-bottom-right-radius: 1px;
+                                animation: span2 2s linear infinite;
+                                animation-delay: 2s;
+                            }
+                            &:nth-of-type(3){
+                                height:3px;
+                                width:140px;
+                                right:-140px;
+                                bottom: 0px;
+                                background: linear-gradient(to left, rgba(0,0,0,0), #202020);
+                                border-top-left-radius: 1px;
+                                border-bottom-left-radius: 1px;
+                                animation: span3 2s linear infinite;
+                                animation-delay: 3s;
+                            }
+                            &:nth-of-type(4){
+                                height:40px;
+                                width:3px;
+                                bottom:-40px;
+                                left:0px;
+                                background: linear-gradient(to top, rgba(0,0,0,0), #202020);
+                                border-top-right-radius: 1px;
+                                border-top-left-radius: 1px;
+                                animation: span4 2s linear infinite;
+                                animation-delay: 4s;
+                            }
+                        }
+                        @keyframes span1{
+                            0%{
+                                left:-200px
+                            }
+                            100%{
+                                left:200px;
+                            }
+                        }
+                        @keyframes span2{
+                            0%{
+                                top:-70px;
+                            }
+                            100%{
+                                top:70px;
+                            }
+                        }
+                        @keyframes span3{
+                            0%{
+                                right:-200px;
+                            }
+                            100%{
+                                right: 200px;
+                            }
+                        }
+                        @keyframes span4{
+                            0%{
+                                bottom: -70px;
+                            }
+                            100%{
+                                bottom:70px;
+                            }
+                        }
+    
+                        
+                        &:hover{
+                            transition: all .5s;
+                            color: #f6e58d;
+                            background: rgb(51, 51, 51);
+                            
+                            box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+                            span{
+                                background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+                            }
+                        }
+                        
+                        }
                 }
             }
 
