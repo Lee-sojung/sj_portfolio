@@ -68,7 +68,7 @@ section{
                         display: block;
                         width: 140px; outline: none;
                         height: 40px;
-                        font: normal 18px/40px 'Roboto Mono';
+                        font: normal 16px/40px 'Roboto Mono';
                         color: #333;
                         background: rgba(255, 255, 255, 0.5);
                         text-align: center;
@@ -164,7 +164,7 @@ section{
                         &:hover{
                             transition: all .5s;
                             color: #f6e58d;
-                            background: rgb(51, 51, 51);
+                            background: #333;
                             
                             box-shadow: 0px 3px 5px rgba(0,0,0,.4);
                             span{

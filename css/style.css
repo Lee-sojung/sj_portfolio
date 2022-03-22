@@ -64,7 +64,7 @@ section {
             width: 140px;
             outline: none;
             height: 40px;
-            font: normal 18px/40px 'Roboto Mono';
+            font: normal 16px/40px 'Roboto Mono';
             color: #333;
             background: rgba(255, 255, 255, 0.5);
             text-align: center;
@@ -139,7 +139,7 @@ section {
             section .inner .profile .about .bg .btnOpen:hover {
               transition: all .5s;
               color: #f6e58d;
-              background: #333333;
+              background: #333;
               box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4); }
               section .inner .profile .about .bg .btnOpen:hover span {
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f6e58d); }
