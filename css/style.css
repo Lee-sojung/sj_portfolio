@@ -66,7 +66,7 @@ section {
             height: 40px;
             font: normal 18px/40px 'Roboto Mono';
             color: #333;
-            background: rgba(255, 255, 255, 0.589);
+            background: rgba(255, 255, 255, 0.5);
             text-align: center;
             margin-left: 50px;
             transition: all .5s;
@@ -118,24 +118,24 @@ section {
                 animation-delay: 4s; }
 @keyframes span1 {
   0% {
-    left: -200px; }
+    left: -140px; }
   100% {
-    left: 200px; } }
+    left: 140px; } }
 @keyframes span2 {
   0% {
-    top: -70px; }
+    top: -40px; }
   100% {
-    top: 70px; } }
+    top: 40px; } }
 @keyframes span3 {
   0% {
-    right: -200px; }
+    right: -140px; }
   100% {
-    right: 200px; } }
+    right: 140px; } }
 @keyframes span4 {
   0% {
-    bottom: -70px; }
+    bottom: -40px; }
   100% {
-    bottom: 70px; } }
+    bottom: 40px; } }
             section .inner .profile .about .bg .btnOpen:hover {
               transition: all .5s;
               color: #f6e58d;
